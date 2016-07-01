@@ -25,7 +25,7 @@
     
     class Services_JSON_EncDec_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_EncDec_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
